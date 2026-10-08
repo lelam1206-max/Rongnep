@@ -1,11 +1,12 @@
 // Dữ liệu tĩnh của app — giữ nguyên nội dung tiếng Việt của gia đình
+import { RONG_PHOTO, NEP_PHOTO } from './photos'
 
 export const KIDS = [
   {
     id: 'rong',
     name: 'Rồng',
     emoji: '🐉',
-    photo: '/images/rong.jpg',
+    photo: RONG_PHOTO,
     color: '#F2762E',
     soft: '#FFE8D6',
     deep: '#C2571A',
@@ -27,7 +28,7 @@ export const KIDS = [
     id: 'nep',
     name: 'Nếp',
     emoji: '🌸',
-    photo: '/images/nep.jpg',
+    photo: NEP_PHOTO,
     color: '#A855F7',
     soft: '#F0E3FF',
     deep: '#7E3AC9',
